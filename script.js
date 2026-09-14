@@ -42,6 +42,7 @@ mobileMenu?.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", () => {
     mobileMenu.setAttribute("hidden", "");
     navToggle?.setAttribute("aria-expanded", "false");
+    navToggle?.setAttribute("aria-label", "Open menu");
   });
 });
 

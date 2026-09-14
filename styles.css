@@ -18,6 +18,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 84px;
 }
 
 body {
@@ -402,6 +403,11 @@ h1 em {
   font-size: 12px;
 }
 
+.section,
+.hero {
+  scroll-margin-top: 84px;
+}
+
 .section {
   padding: 72px 22px;
 }
@@ -703,6 +709,15 @@ h2 {
 
   .hero {
     padding-top: 28px;
+  }
+
+  .hero-copy {
+    order: -1;
+  }
+
+  .mascot-plate {
+    max-width: 360px;
+    margin: 0 auto;
   }
 
   h1 {
