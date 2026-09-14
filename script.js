@@ -1,4 +1,4 @@
-const CA = "0xtba";
+const CA = "0x99cf4a7be2cf08a511583949f839c0379c93f80c";
 const copyBtn = document.getElementById("copyBtn");
 const navToggle = document.querySelector(".nav-toggle");
 const mobileMenu = document.querySelector(".mobile-menu");
