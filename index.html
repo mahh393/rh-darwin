@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Darwin Gödel Machine ($DARWIN) — Robinhood Chain</title>
+  <meta name="description" content="Darwin Gödel Machine ($DARWIN) is the self-improving meme on Robinhood Chain. Open-ended evolution of agents that rewrite their own code. CA: 0xtba. Lore: arXiv:2505.22954." />
+  <meta name="theme-color" content="#C8FF00" />
+  <meta property="og:title" content="Darwin Gödel Machine ($DARWIN)" />
+  <meta property="og:description" content="The Gödel machine went Darwinian. Now it lives on Robinhood Chain. Self-improving. Open-ended. CA: 0xtba." />
+  <meta property="og:image" content="logo.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Darwin Gödel Machine ($DARWIN)" />
+  <meta name="twitter:description" content="Open-ended evolution of self-improving agents. Tokenized on Robinhood Chain." />
+  <meta name="twitter:image" content="logo.png" />
+  <link rel="icon" href="logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <a class="brand" href="#top">
+      <img src="logo.png" alt="Darwin Gödel Machine logo" width="44" height="44" />
+      <span>
+        <strong>DARWIN</strong>
+        <small>Gödel Machine</small>
+      </span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#lore">Lore</a></li>
+      <li><a href="#chart">Chart</a></li>
+      <li><a href="#tokenomics">Tokenomics</a></li>
+      <li><a href="#buy">Buy</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a class="btn btn-ghost" href="https://arxiv.org/abs/2505.22954" target="_blank" rel="noopener noreferrer">arXiv:2505.22954</a>
+      <a class="btn btn-lime" href="https://app.uniswap.org/swap?chain=robinhood&outputCurrency=0xtba" target="_blank" rel="noopener noreferrer">Buy $DARWIN</a>
+    </div>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" hidden>
+    <a href="#lore">Lore</a>
+    <a href="#chart">Chart</a>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#buy">Buy</a>
+    <a href="https://arxiv.org/abs/2505.22954" target="_blank" rel="noopener noreferrer">Paper</a>
+    <a href="https://app.uniswap.org/swap?chain=robinhood&outputCurrency=0xtba" target="_blank" rel="noopener noreferrer">Buy $DARWIN</a>
+  </div>
+
+  <header class="hero" id="top">
+    <p class="spine" aria-hidden="true">arXiv:2505.22954 · cs.AI · Robinhood Chain 4663</p>
+    <div class="hero-inner">
+      <div class="hero-mascot">
+        <div class="mascot-plate">
+          <img src="logo.png" alt="Robot Gödel Machine riding a mechanical horse" />
+        </div>
+        <div class="mascot-meta">
+          <span>Iteration 00</span>
+          <span>Archive node: genesis</span>
+        </div>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">Robinhood Chain meme · self-improving agent</p>
+        <h1>Darwin <em>Gödel</em> Machine</h1>
+        <p class="lede">
+          Fixed architectures are for fossils. $DARWIN is the meme that rewrites itself —
+          sample an agent, mutate the code, keep what survives. Open-ended evolution,
+          empirically validated, now riding Robinhood Chain.
+        </p>
+        <div class="ca-box">
+          <div class="ca-head">
+            <span>Contract Address</span>
+            <span class="chain-pill">Robinhood · 4663</span>
+          </div>
+          <div class="ca-row">
+            <code id="ca">0xtba</code>
+            <button class="btn-copy" id="copyBtn" type="button">Copy</button>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-lime btn-lg" href="https://app.uniswap.org/swap?chain=robinhood&outputCurrency=0xtba" target="_blank" rel="noopener noreferrer">Buy on Uniswap</a>
+          <a class="btn btn-outline btn-lg" href="#chart">Live Chart</a>
+          <a class="btn btn-ghost btn-lg" href="https://arxiv.org/abs/2505.22954" target="_blank" rel="noopener noreferrer">Read the paper</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>$DARWIN</span><span class="dot"></span>
+      <span>darwin gödel machine</span><span class="dot"></span>
+      <span>self-improving agents</span><span class="dot"></span>
+      <span>open-ended evolution</span><span class="dot"></span>
+      <span>swe-bench 20% → 50%</span><span class="dot"></span>
+      <span>polyglot 14.2% → 30.7%</span><span class="dot"></span>
+      <span>robinhood chain</span><span class="dot"></span>
+      <span>arxiv:2505.22954</span><span class="dot"></span>
+      <span>$DARWIN</span><span class="dot"></span>
+      <span>darwin gödel machine</span><span class="dot"></span>
+      <span>self-improving agents</span><span class="dot"></span>
+      <span>open-ended evolution</span><span class="dot"></span>
+      <span>swe-bench 20% → 50%</span><span class="dot"></span>
+      <span>polyglot 14.2% → 30.7%</span><span class="dot"></span>
+      <span>robinhood chain</span><span class="dot"></span>
+      <span>arxiv:2505.22954</span><span class="dot"></span>
+    </div>
+  </div>
+
+  <section class="stats">
+    <article>
+      <span class="stat-k">$DARWIN</span>
+      <span class="stat-l">Symbol</span>
+    </article>
+    <article>
+      <span class="stat-k">20% → 50%</span>
+      <span class="stat-l">SWE-bench (paper)</span>
+    </article>
+    <article>
+      <span class="stat-k">14.2% → 30.7%</span>
+      <span class="stat-l">Polyglot (paper)</span>
+    </article>
+    <article>
+      <span class="stat-k">0 / 0</span>
+      <span class="stat-l">Buy / Sell tax</span>
+    </article>
+  </section>
+
+  <section class="section" id="lore">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Social narrative</span>
+        <h2>The Gödel machine grew a family tree.</h2>
+        <p>
+          Jürgen Schmidhuber’s Gödel machine was a thought experiment: an AI that only rewrites
+          itself when it can <em>prove</em> the change is net beneficial. Proof is impossible for
+          most real upgrades. The Darwin Gödel Machine keeps the self-rewrite and drops the
+          theorem — mutate, evaluate on coding benchmarks, archive the interesting survivors.
+        </p>
+      </div>
+
+      <div class="lore-layout">
+        <article class="paper-card">
+          <p class="paper-kicker">Primary source</p>
+          <h3>Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents</h3>
+          <p class="authors">Jenny Zhang, Shengran Hu, Cong Lu, Robert Lange, Jeff Clune</p>
+          <p>
+            A self-improving coding agent that iteratively modifies its own codebase — including
+            the code that does the modifying — then empirically validates each child on SWE-bench
+            and Polyglot. An archive of agents grows by sampling a parent and asking a foundation
+            model for a new, interesting descendant. The search becomes a tree, not a ladder.
+          </p>
+          <ul class="paper-facts">
+            <li>Better code-editing tools</li>
+            <li>Long-context window management</li>
+            <li>Peer-review loops between agents</li>
+            <li>Sandboxing + human oversight in the original experiments</li>
+          </ul>
+          <div class="paper-links">
+            <a class="btn btn-lime" href="https://arxiv.org/abs/2505.22954" target="_blank" rel="noopener noreferrer">arXiv:2505.22954</a>
+            <a class="btn btn-outline" href="https://arxiv.org/pdf/2505.22954" target="_blank" rel="noopener noreferrer">PDF</a>
+            <a class="btn btn-ghost" href="https://github.com/jennyzzt/dgm" target="_blank" rel="noopener noreferrer">Code</a>
+          </div>
+        </article>
+
+        <div class="loop">
+          <h3>The loop, on-chain</h3>
+          <ol>
+            <li>
+              <strong>Sample</strong>
+              <span>Pick an agent from the archive — not only the current high score.</span>
+            </li>
+            <li>
+              <strong>Mutate</strong>
+              <span>Rewrite tools, prompts, context, review. Improve the improver.</span>
+            </li>
+            <li>
+              <strong>Evaluate</strong>
+              <span>Keep what works. Interesting failures stay as stepping stones.</span>
+            </li>
+            <li>
+              <strong>Archive</strong>
+              <span>The tree branches. $DARWIN is the token that never stops iterating.</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-chart" id="chart">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Market</span>
+        <h2>Dexscreener chart</h2>
+        <p>Live price, liquidity, and trades for $DARWIN on Robinhood Chain. Pair goes live with the contract.</p>
+      </div>
+      <div class="chart-shell">
+        <div class="chart-bar">
+          <span>Dexscreener · robinhood / 0xtba</span>
+          <a href="https://dexscreener.com/robinhood/0xtba" target="_blank" rel="noopener noreferrer">Open full chart →</a>
+        </div>
+        <div class="chart-frame">
+          <iframe
+            title="Dexscreener chart for Darwin Gödel Machine ($DARWIN)"
+            src="https://dexscreener.com/robinhood/0xtba?embed=1&theme=dark&info=0&trades=0"
+            loading="lazy"
+            referrerpolicy="no-referrer"
+          ></iframe>
+        </div>
+      </div>
+      <div class="chart-links">
+        <a href="https://dexscreener.com/robinhood/0xtba" target="_blank" rel="noopener noreferrer">Dexscreener</a>
+        <a href="https://app.uniswap.org/swap?chain=robinhood&outputCurrency=0xtba" target="_blank" rel="noopener noreferrer">Uniswap</a>
+        <a href="https://robinhoodchain.blockscout.com/address/0xtba" target="_blank" rel="noopener noreferrer">Explorer</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="tokenomics">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Genome</span>
+        <h2>Tokenomics</h2>
+        <p>No hidden mint. No VC unlock. The archive is public and the supply is fixed.</p>
+      </div>
+      <div class="tok-grid">
+        <article>
+          <span>1B</span>
+          <h3>Total supply</h3>
+          <p>Fixed forever. The machine does not print extra descendants off-chain.</p>
+        </article>
+        <article>
+          <span>100%</span>
+          <h3>Fair launch</h3>
+          <p>Community owned. Liquidity on Uniswap. No team allocation games.</p>
+        </article>
+        <article>
+          <span>0%</span>
+          <h3>Tax</h3>
+          <p>Zero buy. Zero sell. What you swap is what you keep.</p>
+        </article>
+        <article>
+          <span>LP</span>
+          <h3>Burned</h3>
+          <p>Liquidity locked at launch. Ownership renounced. Code is the only owner.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="buy">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">How to buy</span>
+        <h2>Bridge in. Paste the CA. Evolve.</h2>
+      </div>
+      <div class="buy-grid">
+        <article>
+          <span class="step">01</span>
+          <h3>Wallet</h3>
+          <p>Use MetaMask, Rabby, or Robinhood Wallet. Add Robinhood Chain (ID 4663, native gas ETH).</p>
+          <button class="btn btn-outline" id="addNetwork" type="button">Add network</button>
+        </article>
+        <article>
+          <span class="step">02</span>
+          <h3>Bridge ETH</h3>
+          <p>Move ETH onto Robinhood Chain via Uniswap’s Robinhood bridge or the canonical Arbitrum route.</p>
+          <a class="btn btn-outline" href="https://app.uniswap.org/swap?chain=robinhood" target="_blank" rel="noopener noreferrer">Open Uniswap</a>
+        </article>
+        <article>
+          <span class="step">03</span>
+          <h3>Swap $DARWIN</h3>
+          <p>Paste <code>0xtba</code>. Confirm you are on Robinhood Chain. Buy the machine, not a copycat ticker.</p>
+          <a class="btn btn-lime" href="https://app.uniswap.org/swap?chain=robinhood&outputCurrency=0xtba" target="_blank" rel="noopener noreferrer">Buy $DARWIN</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="roadmap">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Archive</span>
+        <h2>Open-ended flight plan</h2>
+        <p>Not a straight line. Stepping stones. The interesting failures stay in the tree.</p>
+      </div>
+      <div class="road">
+        <article>
+          <span>Gen 0</span>
+          <h3>Genesis agent</h3>
+          <p>Fair launch on Robinhood Chain. LP burned. Site live. Paper as lore.</p>
+        </article>
+        <article>
+          <span>Gen 1</span>
+          <h3>Self-modify</h3>
+          <p>Dexscreener indexed. Listings. Memes. First thousand holders in the archive.</p>
+        </article>
+        <article>
+          <span>Gen 2</span>
+          <h3>Open-ended search</h3>
+          <p>Community experiments, contests, and forks of the narrative. Many paths at once.</p>
+        </article>
+        <article>
+          <span>Gen ∞</span>
+          <h3>Endless innovation</h3>
+          <p>Wherever the tree branches next. The machine keeps sampling itself.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="logo.png" alt="" width="56" height="56" />
+        <div>
+          <strong>Darwin Gödel Machine</strong>
+          <p>$DARWIN on Robinhood Chain. A meme about agents that rewrite their own code, sourced from <a href="https://arxiv.org/abs/2505.22954" target="_blank" rel="noopener noreferrer">arXiv:2505.22954</a>.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="https://arxiv.org/abs/2505.22954" target="_blank" rel="noopener noreferrer">Paper</a>
+        <a href="https://github.com/jennyzzt/dgm" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://dexscreener.com/robinhood/0xtba" target="_blank" rel="noopener noreferrer">Dexscreener</a>
+        <a href="https://app.uniswap.org/swap?chain=robinhood&outputCurrency=0xtba" target="_blank" rel="noopener noreferrer">Uniswap</a>
+      </div>
+    </div>
+    <p class="disclaimer">
+      $DARWIN is a community meme token. Not affiliated with Robinhood Markets, the paper authors,
+      or Sakana AI. Not financial advice. Verify the contract before you swap. DYOR.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
